@@ -31,7 +31,7 @@ function wikiAnchorsFromText($text)
         if (mb_strlen($anchor) <= 25) {
             $topic = trim($m[1][$i]);
             if ($topic && $anchor) {
-                if (!$already["$topic $anchor"]) {
+                if (!isset($already["$topic $anchor"])) {
                     $already["$topic $anchor"] = 1; // send only once per article
                     yield [$topic, $anchor];
                 }
