@@ -1,0 +1,5 @@
+{
+    "require": {
+        "slava-vishnyakov/map-reduce": "^1.0"
+    }
+}

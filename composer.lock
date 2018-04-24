@@ -1,0 +1,48 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "6089a2b313c93b31580d3f517e04f0c7",
+    "packages": [
+        {
+            "name": "slava-vishnyakov/map-reduce",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/slava-vishnyakov/php-map-reduce.git",
+                "reference": "e36eaca80fd7b3ee0e9882a7e7b4169b6f23b6dd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/slava-vishnyakov/php-map-reduce/zipball/e36eaca80fd7b3ee0e9882a7e7b4169b6f23b6dd",
+                "reference": "e36eaca80fd7b3ee0e9882a7e7b4169b6f23b6dd",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SlavaVishnyakov\\MapReduce\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "MapReduce implementation",
+            "time": "2018-04-17T18:05:32+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
