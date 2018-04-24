@@ -41,7 +41,7 @@ function wikiAnchorsFromText($text)
 }
 
 foreach (wikiTexts('php://stdin') as $text) {
-    foreach (wikiAnchorsFromText($text) as [$topic, $anchor]) {
+    foreach (wikiAnchorsFromText($text) as list($topic, $anchor)) {
         $mr->send($topic, $anchor);
     }
 }
